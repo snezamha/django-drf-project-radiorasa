@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from audio.models import Audio
+from radio.models import Audio
 
 
 class AudioSerializer(serializers.ModelSerializer):
